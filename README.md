@@ -4,6 +4,16 @@ TSRdetector manuscript code
 
 ## Usage </br>
 ### Options </br>
+|Option|Description|
+| -- | -- |
+|-g|Reference genome (hg38, chm13v2, mm10)|
+|-c|Cell barcodes for each cell type (single-cell data only)| 
+|-b|Input file of reference TSR information|
+|-x|Only data from x most abundant cell types will be considered|
+|-p|File including the information of comparison between cell types|
+|-v|The cutoff of p-value in wilcox test|
+|-r|The cutoff of absolute difference of two cell types|
+|-n|User defined output folder name|
 
 
 
