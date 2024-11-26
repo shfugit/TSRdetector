@@ -1,6 +1,9 @@
 # TSRdetector
 TSRdetector manuscript code
 
+
+**Quick Start**</br>
+
 **Sources:**<br/>
 (1) Gencode annotation (hg38, GTF file) : https://www.gencodegenes.org/human/releases.html<br />
 (2) assembly from 30 human tissue samples by Nanopore RNA-seq reads (GTF file): https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE192955<br />
