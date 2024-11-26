@@ -54,11 +54,15 @@ With chm13 (v2) reference:</br>
 </br>
 
 **1. Download [TSRdetector](https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/Docker_image/TSRdetector/TSRdetector.tar.gz)**</br>
-```wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/Docker_image/TSRdetector/TSRdetector.tar.gz"
+```
+wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/Docker_image/TSRdetector/TSRdetector.tar.gz"
 ```
 </br>
 **2. Uncompress it** </br>
-```tar xvzf TSRdetector.tar.gz```</br>
+```
+tar xvzf TSRdetector.tar.gz
+```
+</br>
 **3. Modify the file <process_source.sh>**</br>
 Make sure the paths to the folders or exectuables are correct</br>
 
