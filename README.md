@@ -33,8 +33,8 @@ wget https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/do
 wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/testdata.tar.gz"
 ```
 **3. Run TSRdetector with the image** </br>
->[!WARNING]</br>
-Modify the path to your working folder</br>
+>[!IMPORTANT]</br>
+>Modify the path to your working folder</br></br>
 With hg38 reference:</br>
 ```
 singularity run -B ./:/process  -B /home:/[wd_path] TSRdetector_hgmm.simg -g hg38 -c cluster_cell_test -d test_condition_dat -b hg38_v36_exon_merged_filtered.bed -x 3 -p comparison1 -n TEST_hg38 -v 0.1 -r 20 -s
