@@ -46,7 +46,7 @@ singularity run -B ./:/process  -B /home:/[wd_path] TSRdetector_hgmm.simg -g chm
 ```
 
 ## Start with bash scripts</br>
-
+**1. Download the scripts** </br> 
 
 
 
