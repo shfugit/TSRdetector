@@ -6,7 +6,7 @@ TSRdetector manuscript code
 
 ## Quick Start with singularity image</br>
 **Requirements**</br>
-+ Singularity (3.10.3 or above) </br>
++ Singularity (3.10.3 or above) </br></br>
 
 
 
