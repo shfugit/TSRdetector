@@ -12,7 +12,7 @@ TSRdetector manuscript code
 |-x|Only data from x most abundant cell types will be considered|
 |-p|File including the information of comparison between cell types|
 |-v|The cutoff of p-value in wilcox test|
-|-r|The cutoff of absolute difference of two cell types|
+|-r|The cutoff of absolute difference of between two cell types or condtions|
 |-n|User defined output folder name|
 |-s|Use if single-cell data are applied|
 
