@@ -51,6 +51,10 @@ Download TSRdetector [here](https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Pub
 ```
 wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/Docker_image/TSRdetector/TSRdetector.tar.gz"
 ```
+**2. Uncompress the folder</br>
+```
+tar xvzf TSRdetector.tar.gz
+```
 
 
 **Sources:**<br/>
