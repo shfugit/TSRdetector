@@ -2,7 +2,7 @@
 TSRdetector manuscript code
 
 
-## Quick Start</br>
+## Quick Start with singularity image</br>
 **1. Download singularity image** </br>
 ```
 wget https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/docker/TSRdetector_hgmm.simg
