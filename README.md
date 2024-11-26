@@ -2,7 +2,14 @@
 TSRdetector manuscript code
 
 
+
+
 ## Quick Start with singularity image</br>
+** Requirements **</br>
++ Singularity (3.10.3 or above) </br>
+
+
+
 **1. Download singularity image** </br>
 ```
 wget https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/docker/TSRdetector_hgmm.simg
