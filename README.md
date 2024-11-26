@@ -2,8 +2,8 @@
 TSRdetector manuscript code
 
 
-## Usage ##</br>
-### Options ### </br>
+##Usage ##</br>
+###Options ### </br>
 
 
 
