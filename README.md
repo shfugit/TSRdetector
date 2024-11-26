@@ -42,6 +42,12 @@ With chm13 (v2) reference:</br>
 **Requirements**</br>
 + STAR (v2.5.4b, if you use STAR of other versions, please use corresponding index files) </br>
 + RSEM (v1.3.0) </br>
++ R (v4.2.0 or above) </br>
++ R libraries: ggplot2, doParallel, foreach, cowplot, matrixStats, RColorBrewer, RUVSeq, rtracklayer, jsonlite</br>
++ samtools (v1.3.1 or above)</br>
++ bedtools (v2.25.0 or above)</br>
++ bedGraphToBigWig (v2.9)</br>
++ Python (3.6.3 or above)</br>
 </br>
 
 **1. Download [TSRdetector](https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/Docker_image/TSRdetector/TSRdetector.tar.gz)**</br>
