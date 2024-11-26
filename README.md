@@ -2,6 +2,9 @@
 TSRdetector manuscript code
 
 
+## Usage ##</br>
+### Options ### </br>
+
 
 
 ## Quick Start with singularity image</br>
