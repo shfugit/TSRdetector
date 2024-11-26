@@ -34,7 +34,7 @@ wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/t
 ```
 **3. Run TSRdetector with the image** </br>
 > [!IMPORTANT]</br>
-> Modify the path to your working folder</br></br>
+> Modify the path in the command to your working folder. Put the data for test under the working folder.</br></br>
 
 
 With hg38 reference:</br>
