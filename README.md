@@ -3,7 +3,7 @@ TSRdetector manuscript code
 
 
 ## Quick Start</br>
-1. Download singularity image</br>
+**1. Download singularity image** </br>
 2. Download data for test</br>
 
 
