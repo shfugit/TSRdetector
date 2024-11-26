@@ -35,7 +35,9 @@ wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/t
 
 With hg38 reference:</br>
 ```
-singularity run -B ./:/process  -B /home:/[wd_path] TSRdetector_hgmm.simg -g hg38 -c cluster_cell_test -d test_condition_dat -b hg38_v36_exon_merged_filtered.bed -x 3 -p comparison1 -n TEST_hg38 -v 0.1 -r 20 -s```</br>
+singularity run -B ./:/process  -B /home:/[wd_path] TSRdetector_hgmm.simg -g hg38 -c cluster_cell_test -d test_condition_dat -b hg38_v36_exon_merged_filtered.bed -x 3 -p comparison1 -n TEST_hg38 -v 0.1 -r 20 -s
+```
+</br>
 With chm13 (v2) reference:</br>
 ```singularity run -B ./:/process  -B /home:/[wd_path] TSRdetector_hgmm.simg -g chm13v2 -c cluster_cell_test -d test_condition_dat -b chm13v2.0_exon_merged_filtered_sorted.bed -x 3 -p comparison1 -n TEST_t2t -v 0.1 -r 20 -s```</br>
 
@@ -52,7 +54,9 @@ With chm13 (v2) reference:</br>
 </br>
 
 **1. Download [TSRdetector](https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/Docker_image/TSRdetector/TSRdetector.tar.gz)**</br>
-```wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/Docker_image/TSRdetector/TSRdetector.tar.gz"```</br>
+```wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/Docker_image/TSRdetector/TSRdetector.tar.gz"
+```
+</br>
 **2. Uncompress it** </br>
 ```tar xvzf TSRdetector.tar.gz```</br>
 **3. Modify the file <process_source.sh>**</br>
