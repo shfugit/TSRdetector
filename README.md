@@ -71,6 +71,11 @@ You can apply TSRdetector to your favorite genome by providing relevant files he
 bash TSRdetector.sh [your options] </br>
 
 
+
+
+
+
+
 **Sources:**<br/>
 (1) Gencode annotation (hg38, GTF file) : [GENCODE](https://www.gencodegenes.org/human/releases.html)<br />
 (2) assembly from 30 human tissue samples by Nanopore RNA-seq reads (GTF file): [GSE192955]( https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE192955)<br />
