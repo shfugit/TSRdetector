@@ -14,7 +14,7 @@ TSRdetector manuscript code
 |-v|The cutoff of p-value in wilcox test|
 |-r|The cutoff of absolute difference of two cell types|
 |-n|User defined output folder name|
-|-s|Use if single-cell data are used|
+|-s|Use if single-cell data are applied|
 
 
 
