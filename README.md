@@ -65,6 +65,7 @@ tar xvzf TSRdetector.tar.gz
 ```
 **3. Modify the file <process_source.sh>**</br>
 Make sure the paths to the folders or exectuables are correct</br>
+**4. Use test data or your own data to run TSRdetector
 
 
 **Sources:**<br/>
