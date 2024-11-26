@@ -25,8 +25,7 @@ TSRdetector manuscript code
 
 
 **1. Download singularity image** </br>
-```
-wget https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/docker/TSRdetector_hgmm.simg
+```wget https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/docker/TSRdetector_hgmm.simg
 ```
 **2. Download data for test** </br>
 ```
