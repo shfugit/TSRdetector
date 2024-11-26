@@ -28,8 +28,9 @@ TSRdetector manuscript code
 wget https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/docker/TSRdetector_hgmm.simg
 ```
 **2. Download data for test** </br>
-
-
+```
+wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/testdata.tar.gz"
+```
 
 **Sources:**<br/>
 (1) Gencode annotation (hg38, GTF file) : [GENCODE](https://www.gencodegenes.org/human/releases.html)<br />
