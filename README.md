@@ -3,6 +3,10 @@ TSRdetector manuscript code
 
 
 **Quick Start**</br>
+-Download singularity image
+-Download data for test
+
+
 
 **Sources:**<br/>
 (1) Gencode annotation (hg38, GTF file) : [GENCODE](https://www.gencodegenes.org/human/releases.html)<br />
