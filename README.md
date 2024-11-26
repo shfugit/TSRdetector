@@ -14,6 +14,7 @@ TSRdetector manuscript code
 |-v|The cutoff of p-value in wilcox test|
 |-r|The cutoff of absolute difference of two cell types|
 |-n|User defined output folder name|
+|-s|Use if single-cell data are used|
 
 
 
@@ -31,7 +32,14 @@ wget https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/do
 ```
 wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/testdata.tar.gz"
 ```
-
+**3. Run TSRdetector with the image** </br>
+With hg38 reference:</br>
+```
+singularity run -B ./:/process  -B /home:/home/shuhua ~/app1/Mingxi_study/firstexon_study/docker/TSRdetector_hg38.simg -g hg38 -c cluster_cell_test -d test_condition_dat -b hg38_v36_exon_merged_filtered.bed -x 3 -p comparison1 -n TEST_hg38 -v 0.1 -r 20 -s
+```
+With chm13 (v2) reference:</br>
+singularity run -B ./:/process  -B /home:/home/shuhua ~/app1/Mingxi_study/firstexon_study/docker/TSRdetector_hgmm.simg -g chm13v2 -c cluster_cell_test -d test_condition_dat -b chm13v2.0_exon_merged_filtered_sorted.bed -x 3 -p comparison1 -n TEST_t2t -v 0.1 -r 20 -s
+```
 **Sources:**<br/>
 (1) Gencode annotation (hg38, GTF file) : [GENCODE](https://www.gencodegenes.org/human/releases.html)<br />
 (2) assembly from 30 human tissue samples by Nanopore RNA-seq reads (GTF file): [GSE192955]( https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE192955)<br />
