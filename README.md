@@ -47,8 +47,9 @@ singularity run -B ./:/process  -B /home:/[wd_path] TSRdetector_hgmm.simg -g chm
 + STAR (v2.5.4b, if you use STAR of other versions, please use corresponding index files) </br>
 + RSEM (v1.3.0) </br>
 </br>
-**1. Download the scripts** </br> 
-Download TSRdetector</br>
+
+**Download the scripts**</br> 
+**1. Download TSRdetector**</br>
 ```
 wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/Docker_image/TSRdetector/TSRdetector.tar.gz"
 ```
