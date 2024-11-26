@@ -68,7 +68,7 @@ Make sure the paths to the folders or exectuables are correct</br>
 You can apply TSRdetector to your favorite genome by providing relevant files here</br>
 </br>
 **4. Use test data or your own data to run TSRdetector**</br>
-bash TSRdetector.sh <your options> </br>
+bash TSRdetector.sh [your options] </br>
 
 
 **Sources:**<br/>
