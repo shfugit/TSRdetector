@@ -54,18 +54,15 @@ singularity run -B ./:/process  -B /home:/[wd_path] TSRdetector_hgmm.simg -g chm
 + bedtools (v2.25.0 or above)</br>
 + bedGraphToBigWig (v2.9)</br>
 + Python (3.6.3 or above)</br>
-</br>
 
 **1. Download [TSRdetector](https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/Docker_image/TSRdetector/TSRdetector.tar.gz)**</br>
 ```
 wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/Docker_image/TSRdetector/TSRdetector.tar.gz"
 ```
-</br>
 **2. Uncompress it** </br>
 ```
 tar xvzf TSRdetector.tar.gz
 ```
-</br>
 **3. Modify the file <process_source.sh>**</br>
 Make sure the paths to the folders or exectuables are correct</br>
 
