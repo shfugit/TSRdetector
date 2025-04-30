@@ -75,7 +75,7 @@ bash TSRdetector.sh [your options] </br>
 + TXT-format files for TSR usage comparison that pass (sig_TSR_xxx) or not pass the cutoff (all comparison results in "all_TSR_xxx"): under folder "summary_files"
 + sashimi plots for each comparison between conditions: under folder "sashimi_plots"
 + percent stacked barplots for each comparison between conditions: under folder "stacked_barplots"
-+ bigWig files after merged replicates for same conditions for visualization on genome browser: under folder "merged_bam_files/bw_files"
++ bigWig files after merged replicates for same conditions for visualization on [genome browser]((https://epigenomegateway.readthedocs.io/en/latest/) under folder "merged_bam_files/bw_files"
 
 
 
