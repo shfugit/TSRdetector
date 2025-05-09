@@ -29,6 +29,10 @@ wget https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/do
 ```
 wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/testdata.tar.gz"
 ```
+Uncompress the folder </br>
+```
+gunzip testdata.tar.gz
+```
 **3. Run TSRdetector with the image** </br>
 > [!IMPORTANT]</br>
 > Modify the path in the command to your working folder. Put the data for test under the working folder.</br></br>
