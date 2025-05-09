@@ -25,7 +25,7 @@ TSRdetector manuscript code
 ```
 wget https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/docker/TSRdetector_hgmm.simg
 ```
-**2. Download human single-cell data for test** </br>
+**2. Download and uncompress human single-cell data for test** </br>
 ```
 wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/testdata.tar.gz"
 ```
