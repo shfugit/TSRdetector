@@ -53,7 +53,7 @@ singularity run -B ./:/process  -B /home:/[wd_path] TSRdetector_hgmm.simg -g chm
 + STAR (v2.5.4b, if you use STAR of other versions, please use corresponding index files) </br>
 + RSEM (v1.3.0) </br>
 + R (v4.2.0 or above) </br>
-+ R libraries: ggplot2, doParallel, foreach, cowplot, matrixStats, RColorBrewer, RUVSeq, rtracklayer, jsonlite</br>
++ R libraries: ggplot2, doParallel, foreach, cowplot, matrixStats, RColorBrewer, RUVSeq, rtracklayer, jsonlite, data.table</br>
 + samtools (v1.3.1 or above)</br>
 + bedtools (v2.25.0 or above)</br>
 + bedGraphToBigWig (v2.9)</br>
