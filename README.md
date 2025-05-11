@@ -35,7 +35,7 @@ tar -xvzf testdata.tar.gz
 ```
 **3. Run TSRdetector with the image** </br>
 > [!IMPORTANT]</br>
-> Modify the path in the command to your working folder. Put the data for test under the working folder.</br></br>
+> Modify the path in the command to your working folder. Put the files from folder "testdata" under the working folder.</br></br>
 
 
 With hg38 reference:</br>
