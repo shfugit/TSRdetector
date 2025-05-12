@@ -31,7 +31,7 @@ wget "https://regmedsrv1.wustl.edu/Public_SPACE/shuhua/Public_html/TSRdetector/t
 ```
 Uncompress the folder </br>
 ```
-tar -xvzf testdata.tar.gz
+tar xvzf testdata.tar.gz
 ```
 **3. Run TSRdetector with the image** </br>
 > [!IMPORTANT]</br>
